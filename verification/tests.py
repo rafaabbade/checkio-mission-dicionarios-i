@@ -12,10 +12,10 @@ TESTS = {
     "Basics": [
         {
         "input": [['1984', 'George Orwell', 1949]],
-        "answer": {'titulo': '1984', 'autor': 'George Orwell', 'ano': 1949}
+        "answer": {'titulo': '1984', 'autor': 'George Orwell', 'ano': 1949},
 
         "input": [['Eu, Robô', 'Isaac Asimov', 1950]],
-        "answer": {'titulo': 'Eu, Robô', 'autor': 'Isaac Asimov', 'ano': 1950}
+        "answer": {'titulo': 'Eu, Robô', 'autor': 'Isaac Asimov', 'ano': 1950},
     }
     ]
 }
