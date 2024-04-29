@@ -1,18 +1,19 @@
 <!-- Describe task in general -->
 
 <p>
-    {{ENUNCIADO}}
+    Você recebe uma lista contendo o título, o autor e o ano de publicação de um livro. Seu objetivo é desenvolver uma função que crie um dicionário com essas informações e o retorne.
 </p>
 
 
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada </strong> {{ENTRADA}}
+    <strong>Entrada </strong> Uma lista contendo três elementos: título (string), autor (string) e ano de publicação (inteiro).
+
 </p>
 
 <p>
-    <strong>Saída: </strong> {{SAIDA}}
+    <strong>Saída: </strong> Um dicionário contendo as chaves 'titulo', 'autor' e 'ano', com os valores correspondentes.
 </p>
 
 
@@ -28,7 +29,8 @@ countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
 <pre class="brush: python">
-    {{EXEMPLOS}}
+    criar_livro(['1984', 'George Orwell', 1949]) >> {'titulo': '1984', 'autor': 'George Orwell', 'ano': 1949}
+criar_livro(['Eu, Robô', 'Isaac Asimov', 1950]) >> {'titulo': 'Eu, Robô', 'autor': 'Isaac Asimov', 'ano': 1950}
 </pre>
 {% endif %}
 </div>
