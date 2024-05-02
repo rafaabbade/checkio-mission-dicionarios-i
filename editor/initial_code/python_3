@@ -8,7 +8,7 @@ print(criar_livro(['1984', 'George Orwell', 1949]))
 
 # As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
 
-assert criar_livro(['1984', 'George Orwell', 1949]) == {'titulo': '1984', 'autor': 'George Orwell', 'ano': 1949}
-assert criar_livro(['Eu, Robô', 'Isaac Asimov', 1950]) == {'titulo': 'Eu, Robô', 'autor': 'Isaac Asimov', 'ano': 1950}
+assert criar_livro(['1984', 'George Orwell', 1949]) == {'título': '1984', 'autor': 'George Orwell', 'ano': 1949}
+assert criar_livro(['Eu, Robô', 'Isaac Asimov', 1950]) == {'título': 'Eu, Robô', 'autor': 'Isaac Asimov', 'ano': 1950}
 
 print("Seu código passou pelos testes, clique em Check para avançar!")
